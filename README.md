@@ -30,3 +30,5 @@ $email_data  = array('from'       => 'Thanh Pham',
 
 the logic in the controller will now try to clean the fields and make a cURL call to mail gun. If it succeeds, it will kick back a 200 status code but if not, it will try to send it via mandrill.
 
+
+-place vars, creds in /helpers/Config.php
